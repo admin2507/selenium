@@ -2,54 +2,29 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-05T11:41:23 IST" name="Default suite" finished-at="2021-09-05T11:41:43 IST" duration-ms="19653">
+  <suite started-at="2021-09-18T18:47:00 IST" name="Default suite" finished-at="2021-09-18T18:47:25 IST" duration-ms="24653">
     <groups>
     </groups>
-    <test started-at="2021-09-05T11:41:23 IST" name="Default test" finished-at="2021-09-05T11:41:43 IST" duration-ms="19653">
-      <class name="scripts.twitter">
-        <test-method is-config="true" signature="openApp()[pri:0, instance:scripts.twitter@3c73951]" started-at="2021-09-05T11:41:23 IST" name="openApp" finished-at="2021-09-05T11:41:32 IST" duration-ms="8166" status="PASS">
+    <test started-at="2021-09-18T18:47:00 IST" name="Default test" finished-at="2021-09-18T18:47:25 IST" duration-ms="24653">
+      <class name="scripts.LikeFB">
+        <test-method is-config="true" signature="openApp()[pri:0, instance:scripts.LikeFB@3c73951]" started-at="2021-09-18T18:47:00 IST" name="openApp" finished-at="2021-09-18T18:47:09 IST" duration-ms="8863" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="tc3()[pri:0, instance:scripts.twitter@3c73951]" started-at="2021-09-05T11:41:32 IST" name="tc3" finished-at="2021-09-05T11:41:42 IST" duration-ms="10089" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+        <test-method signature="tc2()[pri:0, instance:scripts.LikeFB@3c73951]" started-at="2021-09-18T18:47:09 IST" name="tc2" finished-at="2021-09-18T18:47:23 IST" duration-ms="13595" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[element click intercepted: Element <iframe src="https://player.vimeo.com/video/356464956" width="600" height="300" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="" cd_frame_id_="3271c9b1c10ad480cd94f72f0a265a37"></iframe> is not clickable at point (318, 498). Other element would receive the click: <strong>...</strong>
-  (Session info: chrome=92.0.4515.159)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-15KD9OUD', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ARJUNJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53799}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 400076fb8a6290da613bc0b1cc606dad]]>
+              <![CDATA[expected [SkillRary - Home | Facebook] but found [SkillRary - मुखपृष्ठ | Facebook]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <iframe src="https://player.vimeo.com/video/356464956" width="600" height="300" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="" cd_frame_id_="3271c9b1c10ad480cd94f72f0a265a37"></iframe> is not clickable at point (318, 498). Other element would receive the click: <strong>...</strong>
-  (Session info: chrome=92.0.4515.159)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-15KD9OUD', ip: '192.168.0.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\Users\ARJUNJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53799}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 400076fb8a6290da613bc0b1cc606dad
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy12.click(Unknown Source)
-at scripts.twitter.tc3(twitter.java:35)
+              <![CDATA[java.lang.AssertionError: expected [SkillRary - Home | Facebook] but found [SkillRary - मुखपृष्ठ | Facebook]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at scripts.LikeFB.tc2(LikeFB.java:45)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -80,22 +55,22 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc3 -->
-        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:scripts.twitter@3c73951]" started-at="2021-09-05T11:41:42 IST" name="closeApp" finished-at="2021-09-05T11:41:43 IST" duration-ms="1331" status="PASS">
+        </test-method> <!-- tc2 -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:scripts.LikeFB@3c73951]" started-at="2021-09-18T18:47:23 IST" name="closeApp" finished-at="2021-09-18T18:47:25 IST" duration-ms="2096" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=tc3 status=FAILURE method=twitter.tc3()[pri:0, instance:scripts.twitter@3c73951] output={null}]]]>
+                <![CDATA[[TestResult name=tc2 status=FAILURE method=LikeFB.tc2()[pri:0, instance:scripts.LikeFB@3c73951] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-      </class> <!-- scripts.twitter -->
+      </class> <!-- scripts.LikeFB -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
