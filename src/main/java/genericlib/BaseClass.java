@@ -13,7 +13,7 @@ import org.testng.annotations.BeforeMethod;
 import io.github.bonigarcia.wdm.managers.ChromeDriverManager;
 
 
-public class BaseClass {
+public class BaseClass implements Autoconstant {
    public WebDriver driver;
    public PropertyFile pdata = new PropertyFile();
    public WebdriverUtility utility = new WebdriverUtility();

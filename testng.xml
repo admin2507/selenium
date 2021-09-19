@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="scripts.tc1"/>
+      <class name="scripts.test2"/>
       <class name="scripts.twitter"/>
       <class name="scripts.LikeFB"/>
     </classes>
